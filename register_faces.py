@@ -42,7 +42,7 @@ while True:
     #Only process every other frame
     if process_this_frame:
         #makes the frame smaller 
-        small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+        small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25) 
 
         # Convert the image from BGR to RGB, inverting the colors
         rgb_small_frame = small_frame[:, :, ::-1] 
